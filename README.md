@@ -1,2 +1,2 @@
-# novalaunch.github.io
+# novalaunch.us
 novalaunch website !!!
