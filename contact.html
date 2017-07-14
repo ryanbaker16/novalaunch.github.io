@@ -39,6 +39,16 @@
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
  
 </div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
   <section>
          <h2>Contact</h2>
          <table style="width:70%">
