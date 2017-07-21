@@ -1,6 +1,6 @@
 html { text-align: center; font-family: dosis; }
-body { height: 100%; width: 100%; margin: 0 auto 0 auto; text-align: left; padding: 0px;} 
-header { height: 68px; width: 100%; background-color: white; text-align: left; color: white; padding-left: 10px; padding-top: 1px; font-family: 'Dosis', sans-serif; }
+body { height: 100%; width: 100%; margin: 0; text-align: left; padding: 0px;} 
+header { height: 68px; width: 100%; background-color: white; text-align: left; color: white; padding-left: 40px; padding-top: 1px; font-family: 'Dosis', sans-serif; }
 nav { line-height:30px; height: 20px; width: 100%; float: left; padding-bottom: 140px; font-family: 'Dosis', sans-serif; position: absolute; }
 section { background-color: white; padding: 60px; margin: 30px; color: black; font-family: 'Dosis', sans-serif;   opacity: 0.85;
 filter: alpha(opacity=50); /* For IE8 and earlier */}
