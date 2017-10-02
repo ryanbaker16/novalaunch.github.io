@@ -60,6 +60,8 @@ background-size: cover;
     background-color: white;
 	color: black;
     overflow: hidden;
+	float: center;
+	text-align: center;
 }
 
 /* Style the links inside the navigation bar */
