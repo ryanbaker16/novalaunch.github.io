@@ -120,7 +120,11 @@ background-size: cover;
  
 /* 4x3 Aspect Ratio */
 .intrinsic-container-4x3 {
-  padding-bottom: 75%;
+  padding-bottom: 56.25%;
+  position: relative;
+  padding-top: 30px;
+  height:0;
+  overflow:hidden;
 }
  
 .intrinsic-container iframe {
