@@ -64,7 +64,7 @@ background-size: cover;
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
+    float: center;
     display: block;
     color: black;
     text-align: center;
