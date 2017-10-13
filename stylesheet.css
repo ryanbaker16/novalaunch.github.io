@@ -60,7 +60,7 @@ background-size: cover;
     background-color: white;
 	color: black;
     overflow: hidden;
-	float: center;
+	float: left;
 	text-align: center;
 }
 
@@ -74,6 +74,12 @@ background-size: cover;
     text-decoration: none;
     font-size: 17px;
 }
+
+.topnav ul {
+	list-style: none;
+	width: 800px;
+	margin: 0 auto;
+	padding: 0; }
 
 /* Change the color of links on hover */
 .topnav a:hover {
