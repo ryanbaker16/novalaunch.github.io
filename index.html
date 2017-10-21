@@ -1,76 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>novalaunch</title>
-	<meta content="A rising spaceflight company hoping to disrupt the aerospace industry by making space more accesible to everyone. We are currently working to make balloon-assisted rocket launches, the easiest, cheapest, and most effective way of getting to low earth orbit." name="description">
-	<meta content="index,follow" name="robots">
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<meta name="google-site-verification" content="OnZTZ5yMcpo8GHCi9OPzftjGxY-_5KGcTG4eIQsGVz0" />
-	<link href="http://www.novalaunch.us/stylesheet.css" rel="stylesheet"><!--[if lt IE 9]>
+    <meta>
+
+    <title>novalaunch</title>
+    <meta content="A rising spaceflight company hoping to disrupt the aerospace industry by making space more accesible to everyone. We are currently working to make balloon-assisted rocket launches, the easiest, cheapest, and most effective way of getting to low earth orbit." name="description">
+    <meta content="index,follow" name="robots">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="OnZTZ5yMcpo8GHCi9OPzftjGxY-_5KGcTG4eIQsGVz0" name="google-site-verification">
+    <link href="http://www.novalaunch.us/stylesheet.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
       <![endif]-->
-	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-	<link href="/manifest.json" rel="manifest">
-	<meta content="#ffffff" name="msapplication-TileColor">
-	<meta content="/ms-icon-144x144.png" name="msapplication-TileImage">
-	<meta content="#ffffff" name="theme-color">
-	<script type="text/javascript">
-	</script>
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet" type="text/css">
+    <link href="/manifest.json" rel="manifest">
+    <meta content="#ffffff" name="msapplication-TileColor">
+    <meta content="/ms-icon-144x144.png" name="msapplication-TileImage">
+    <meta content="#ffffff" name="theme-color">
+    <script type="text/javascript">
+</script>
 </head>
 
-		<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#">Home</a>
-  <a href="#">Missions</a>
-  <a href="#">Contact</a>
-</div>
+<body>
+    <div class="sidenav" id="mySidenav">
+        <a class="closebtn" href="javascript:void(0)" onclick="closeNav()">&times;</a> <a href="#">Home</a> <a href="#">Missions</a> <a href="#">Contact</a>
+    </div><!-- Use any element to open the sidenav -->
 
-<!-- Use any element to open the sidenav -->
+    <div id="main">
+        <div class="wrapper">
+            <ul>
+                <li>
+                    <p><span onclick="openNav()" style="color: #111; font-size: 28;">&#9776</span></p>
+                </li>
 
- 
+                <li><img align="middle" alt="novalaunch" src="images/logo.png" style="width:auto;height:68px;"></li>
+            </ul>
 
-<div id="main">
-<body class="parallax">
-	<div class="wrapper">
-		<header>
-		<ul>
-  <li><span onclick="openNav()" style="color: #111; font-size: 28;"><p>&#9776</p></span></li>
-  <li><img align="middle" alt="novalaunch" src="images/logo.png" style="width:auto;height:68px;"></li>
-  
-</ul>
-			
-			
-			
-		</header>
-  <section>
-			<h2>Innovating to make space accessible for everyone...</h2>
-			<p>We are growing spaceflight company hoping to disrupt the aerospace industry by making space accessbile to everyone</p>
-			<div style="text-align: center">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/Cn-BomdL6uY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen>
-				</iframe>
-			</div>
-			<hr>
-		</section>
-		<div class="push"></div>
-		<div class="push"></div>
-		<div class="push"></div>
-		<footer>
-			<p>2017 - novalaunch</p>
-		</footer>
-</div>
-<script>
+            <h2>Innovating to make space accessible for everyone...</h2>
+
+            <p>We are growing spaceflight company hoping to disrupt the aerospace industry by making space accessbile to everyone</p>
+
+            <div style="text-align: center">
+                <iframe frameborder="0" height="315" src="https://www.youtube.com/embed/Cn-BomdL6uY?rel=0&amp;showinfo=0" width="560"></iframe>
+            </div>
+            <hr>
+
+            <div class="push"></div>
+
+            <div class="push"></div>
+
+            <div class="push"></div>
+
+            <p>2017 - novalaunch</p>
+        </div><script type="text/javascript">
 function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
-}
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        }
 
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
-}
-</script>
-		
-	</div>
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
+    </div>
 </body>
 </html>
