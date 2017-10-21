@@ -4,7 +4,7 @@ header { height: 68px;  background-color: white; text-align: center; color: whit
 nav {font-family: 'Dosis',}
 section { background-color: white; padding: 60px; margin: 30px; text-align: center; color: black; font-family: 'Dosis', sans-serif;   opacity: 0.85;
 filter: alpha(opacity=50); /* For IE8 and earlier */}
-main { padding: 20px; height 90% font-family: 'Dosis', sans-serif; }
+main { padding: 0px; height 90% font-family: 'Dosis', sans-serif; }
 article { width: 950px; display: table; padding: 20px; font-family: 'Dosis', sans-serif;}
 hr { 
 display: block;
