@@ -1,5 +1,5 @@
 html { text-align: center; font-family: dosis; }
-body { height: 100%; width: 100%; margin: 0; text-align: left; padding: 0px;} 
+body { height: 100%; width: 100%; margin: 0; text-align: left; padding: 0px; background-image: url(http://novalaunch.us/images/background.jpg)} 
 header { height: 68px;  width: auto; background-color: white; text-align: center; color: white;  padding-top: 1px; font-family: 'Dosis', sans-serif; }
 nav {font-family: 'Dosis',}
 section { background-color: white; padding: 60px; margin: 30px; text-align: center; color: black; font-family: 'Dosis', sans-serif;   opacity: 0.85;
