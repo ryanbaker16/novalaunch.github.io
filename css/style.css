@@ -24,11 +24,6 @@ a:active {
 img {
 	border: none;
 }
-/*-------------------------------------------FONTS---------------------------------------------*/
-@font-face {
-	font-family: 'Dosis', sans-serif;;
-
-}
 /*----------------------------------------header-styles---------------------------------------*/
 #header {
 	background: url(../images/bg-transparent1.png) repeat;
