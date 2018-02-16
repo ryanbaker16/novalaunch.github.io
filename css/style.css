@@ -9,6 +9,7 @@ body {
 body #page {
 	background: url("../images/bg-home.jpg") no-repeat scroll center top #000000;
 	margin: 0;
+	font-family: 'Dosis', sans-serif;
 	overflow: hidden;
 	padding: 0;
 	width: auto;
@@ -31,12 +32,14 @@ img {
 	min-height: 60px;
 	padding: 0;
 	width: auto;
+	font-family: 'Dosis', sans-serif;
 }
 #header div {
 	margin: 0 auto;
 	max-width: 940px;
 	min-height: 60px;
 	padding: 0 10px;
+	font-family: 'Dosis', sans-serif;
 }
 #header div a.logo {
 	display: block;
@@ -45,12 +48,14 @@ img {
 	margin: 0 44px 0 0;
 	padding: 0;
 	width: 304px;
+	font-family: 'Dosis', sans-serif;
 }
 #header div a img {
 	display: block;
 	margin: 0;
 	padding: 0;
 	width: auto;
+	font-family: 'Dosis', sans-serif;
 }
 #header div ul {
 	display: inline-block;
@@ -59,17 +64,19 @@ img {
 	margin: 0;
 	padding: 0;
 	width: auto;
+	font-family: 'Dosis', sans-serif;
 }
 #header div ul li {
 	float: left;
 	margin: 0;
 	padding: 0;
 	width: auto;
+	font-family: 'Dosis', sans-serif;
 }
 #header div ul li a {
 	color: #ffffff;
 	display: block;
-	font-family: Arial;
+	font-family: 'Dosis', sans-serif;
 	font-size: 18px;
 	font-weight: normal;
 	line-height: 59px;
@@ -84,13 +91,16 @@ img {
 #header div ul li a:hover {
 	background-color: #620031;
 	color: #ffffff;
+	font-family: 'Dosis', sans-serif;
 }
 #header div ul li.selected a {
 	background-color: #000000;
 	color: #a3a3a3;
+	font-family: 'Dosis', sans-serif;
 }
 #header div ul li.menu {
 	position: relative;
+	font-family: 'Dosis', sans-serif;
 }
 #header div ul li.menu ul {
 	display: block;
@@ -102,6 +112,7 @@ img {
 	top: 60px;
 	width: 142px;
 	z-index: 50;
+	font-family: 'Dosis', sans-serif;
 }
 #header div ul li.menu:hover ul.primary {
 	left: 31px;
@@ -124,7 +135,7 @@ img {
 	background-color: #620031;
 	color: #ffffff;
 	display: block;
-	font-family: Arial;
+	font-family: 'Dosis', sans-serif;
 	font-size: 18px;
 	font-weight: normal;
 	line-height: 60px;
@@ -138,6 +149,7 @@ img {
 #header div ul li.menu ul.primary.selected li a, #header div ul li.menu ul.secondary.selected li a {
 	background-color: #000000;
 	color: #a3a3a3;
+	font-family: 'Dosis', sans-serif;
 }
 /*----------------------------------------body-home-styles---------------------------------------*/
 #body {
@@ -147,6 +159,7 @@ img {
 	overflow: hidden;
 	padding: 0;
 	width: 100%;
+	font-family: 'Dosis', sans-serif;
 }
 #body.home {
 	background: none;
@@ -155,6 +168,7 @@ img {
 	overflow: hidden;
 	padding: 0;
 	width: 100%;
+	font-family: 'Dosis', sans-serif;
 }
 #body.home .header {
 	background: none;
@@ -162,6 +176,7 @@ img {
 	overflow: hidden;
 	padding: 0;
 	width: 100%;
+	font-family: 'Dosis', sans-serif;
 }
 #body.home .header div {
 	margin: 0 auto;
@@ -169,6 +184,7 @@ img {
 	overflow: hidden;
 	padding: 0 10px;
 	position: relative;
+	font-family: 'Dosis', sans-serif;
 }
 #body.home .header div img.satellite {
 	display: block;
@@ -179,6 +195,7 @@ img {
 	top: 41px;
 	width: auto;
 	z-index: 50;
+	font-family: 'Dosis', sans-serif;
 }
 #body.home .header div h1 {
 	color: #FFFFFF;
@@ -195,12 +212,13 @@ img {
 	text-transform: uppercase;
 	width: 503px;
 	z-index: 60;
+	font-family: 'Dosis', sans-serif;
 }
 #body.home .header div h2 {
 	color: #FFFFFF;
 	display: block;
 	float: right;
-	font-family: Arial;
+	font-family: 'Dosis', sans-serif;
 	font-size: 43px;
 	font-weight: normal;
 	line-height: 43px;
@@ -217,7 +235,7 @@ img {
 	color: #a3a3a3;
 	display: block;
 	float: right;
-	font-family: Arial;
+	font-family: 'Dosis', sans-serif;
 	font-size: 18px;
 	font-weight: normal;
 	height: 49px;
@@ -250,6 +268,7 @@ img {
 	text-align: center;
 	text-transform: uppercase;
 	width: 940px;
+	font-family: 'Dosis', sans-serif;
 }
 #body.home .header div ul {
 	display: inline-block;
@@ -258,6 +277,7 @@ img {
 	overflow: hidden;
 	padding: 0;
 	width: auto;
+	font-family: 'Dosis', sans-serif;
 }
 #body.home .header div ul li:first-child {
 	padding: 0;
